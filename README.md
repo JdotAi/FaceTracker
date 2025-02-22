@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a real-time face recognition system using Python. It detects faces in a video stream, computes face embeddings using the [face_recognition](https://github.com/ageitgey/face_recognition) library, and uses a SQLite database to store and match these embeddings. When a face is detected, the system either recognizes it as an existing person or adds it as a new person (named "person1", "person2", etc.). Additionally, the program draws both a bounding box and a facial landmark "mask" on each detected face.
+In this project we implement a real-time face recognition system using Python. It detects faces using the [face_recognition](https://github.com/ageitgey/face_recognition) library, and uses a SQLite database to store and match these embeddings. When a face is detected, the system either recognizes it as an existing person or adds it as a new person (named "person1", "person2", etc.). Additionally, the program draws a bounding box and a facial landmark "mask" on each detected face.
 
 ## Features
 
